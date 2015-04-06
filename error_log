@@ -1,0 +1,2 @@
+[27-Feb-2014 06:57:03 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home2/freedpw2/public_html/wp-includes/query.php on line 1482
+[27-Feb-2014 06:57:03 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home2/freedpw2/public_html/wp-includes/query.php on line 1937

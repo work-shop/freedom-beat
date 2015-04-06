@@ -1,0 +1,11 @@
+
+v 1.1 11.2.2013
+=================================================
+
+-fixed one security issue
+-replaced ereg functions with preg
+
+/function.php
+/category_template1.php
+/css/style_options.php
+/admin/admin-interface.php

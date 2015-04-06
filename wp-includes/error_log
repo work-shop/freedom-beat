@@ -1,0 +1,1 @@
+[19-Dec-2014 06:29:15 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/freedpw2/public_html/wp-includes/admin-bar.php on line 48
