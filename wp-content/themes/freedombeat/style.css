@@ -10,6 +10,7 @@ Version:        0.1.0
 pink #b61f62
 black #171717
 white #fff
+gray #b4b7bb
 blue #25bceb*/
 
 @font-face {
@@ -62,6 +63,18 @@ a {
 
 #logo {
   margin: 21px 0 2px 0px;
+}
+
+#logo .tagline {
+  color: #b4b7bb;
+  display: block;
+  text-transform: uppercase;
+  margin-left: 0.65em;
+  margin-top: -1em;
+}
+
+header, footer, .sidebar {
+  color: #fff;
 }
 
 .menu > li a strong {
@@ -257,7 +270,7 @@ h2.title a, .authorblog a, .categoryblog a {
   color:#b61f62;
 }
 
-h2.title a:hover, .textwidget {
+h2.title a:hover {
   color: #fff;
 }
 
@@ -733,7 +746,7 @@ h2.title a, .authorblog a, .categoryblog a {
   color:#b61f62;
 }
 
-h2.title a:hover, .textwidget {
+h2.title a:hover {
   color: #fff;
 }
 

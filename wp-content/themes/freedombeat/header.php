@@ -66,6 +66,7 @@
       <?php $logo = $data['logo']; ?>
 
         <a href="<?php echo home_url(); ?>"><img src="<?php if ($logo != '') {?><?php echo $logo; ?><?php } else {?><?php get_template_directory_uri(); ?>/images/logo.png<?php }?>" alt="<?php bloginfo('name'); ?> - <?php bloginfo('description') ?>" /></a>
+        <span class="tagline"><?php echo get_bloginfo ( 'description' ); ?>
 
       </div>
       <div class="respMenu">
