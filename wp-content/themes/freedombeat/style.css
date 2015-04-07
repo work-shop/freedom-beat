@@ -52,6 +52,10 @@ a.symbol:before {
   background: #fbd500;
 }
 
+body {
+  font-size: 15px;
+}
+
 body, #headerwrap, #footer, #slider-wrapper-iframe, #slider-wrapper {
   background: #2f3032 !important;
 }
@@ -243,9 +247,6 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 .blogpostcategory iframe {
   background: #fff !important;
 }
-.content .entry {
-  margin-bottom: 20px;
-}
 h2.title a, .authorblog a, .categoryblog a {
   color:#b61f62;
 }
@@ -260,10 +261,10 @@ h2.title a:hover {
 }
 
 .content .entry {
-  background: #fbd500;
   width: auto;
   padding-left: 10px;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .category-news .content {
@@ -601,7 +602,7 @@ a {
   border-color: #171717 !important;
 }
 
-.homeRacent h2, .advertise h2, .slider-category .anythingBase, #nslider img, .related h3, .widget h3, .projectdescription h3, .portsingle .portfolio h3, .titleborderh, .socialsingle h2 {
+.homeRacent h2, .advertise h2, .slider-category .anythingBase, #nslider img, .related h3, .widget h3, .projectdescription h3, .titleborderh, .socialsingle h2 {
   background: #2f3032 !important;
   color:#b61f62
 }
@@ -727,9 +728,6 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 .blogpostcategory iframe {
   background: #fff !important;
 }
-.content .entry {
-  margin-bottom: 20px;
-}
 h2.title a, .authorblog a, .categoryblog a {
   color:#b61f62;
 }
@@ -741,13 +739,6 @@ h2.title a:hover {
 .blogpostcategory .blogimage, .blogpostcategory .posted-date .date-inside, .blogpostcategory .date-inside .day, .blogpostcategory .date-inside .month {
   background: #fff !important;
   color: #000 !important;
-}
-
-.content .entry {
-  background: #fbd500;
-  width: auto;
-  padding-left: 10px;
-  margin-top: 0;
 }
 
 .category-news .content {
