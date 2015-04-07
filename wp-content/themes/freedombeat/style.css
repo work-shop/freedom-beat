@@ -7,6 +7,7 @@ Version:        0.1.0
 
 
 /*yellow #fbd500
+light pink #e07ca8
 pink #b61f62
 dark purple #720d3a
 black #171717
@@ -81,12 +82,11 @@ header, footer, .sidebar {
 
 .menu > li a strong {
     text-transform: uppercase;
-    color: #b61f62;
+    color: #e07ca8;
     font-weight: 200;
 }
 
 .menu > li.current-menu-item a strong {
-  color: #fff !important;
   border-top: solid 2px #fbd500;
   border-bottom: solid 2px #fbd500;
 }
@@ -186,10 +186,6 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 
 #footer .widget_tag_cloud a:hover, .widget_tag_cloud a:hover {
   background-color: #6d123a !important;
-}
-
-#footer .product_list_widget li del, #footer .widget del span, .footer_widget h3 span, .catlinkhover, .item h3 a:hover, .item2 h3 a:hover, .item4 h3 a:hover, .catlink:hover, .infotext span, .homeRacent h3 a:hover, .item4 h4 a:hover, .tags a:hover, .blogpost .link:hover, .blogpost .postedin:hover, .blogpost .postedin:hover, .blogpost .link a:hover, .blogpostcategory a.textlink:hover, .footer_widget .widget_links ul li a:hover, .footer_widget .widget_categories ul li a:hover, .footer_widget .widget_archive ul li a:hover, #footerb .footernav ul li a:hover, .footer_widget ul li a:hover, .tags span a:hover, .more-link:hover, .showpostpostcontent h1 a:hover, .menu li a:hover, .menu li a:hover strong, .menu li ul li:hover ul li:hover a, .menu > li.current-menu-item a strong, .menu > li.current-menu-ancestor a strong, .blogpostcategory .meta .written:hover a, .blogpostcategory .meta .comments:hover a, #wp-calendar a, .widgett a:hover, .widget_categories li.current-cat a, .widget_categories li.current-cat, .blogpostcategory .meta .time a:hover, .homeRacent h2 span, .advertise h2 span, .related h3 span, .homeremove .catlink .sortingword:hover, .homeremove .catlinkhover .sortingword, .blogpost .datecomment .link a, .titleborderh span, .textSlide .box, .widget_login p a:hover, .priceSP ins, .boxmore a:hover, .homeRacent .productF h3.category, .textSlide .salePrice1 a, .textSlide .salePrice2 a, .textSlide .salePrice3 a, .textSlide span, .homeRacent .recentmore:hover, .widget_login p a:hover, .priceSP ins, .cartTopDetails .product_list_widget li a:hover, .top-nav li a:hover, #footer .widget .wttitle h4 a, .widget .wttitle h4 a {
-  color:#b61f62 !important;
 }
 
 #footer .widget .wttitle h4 a:hover, .widget .wttitle h4 a:hover, .widget a {
@@ -566,18 +562,6 @@ a {
   margin: 21px 0 2px 0px;
 }
 
-.menu > li a strong {
-    text-transform: uppercase;
-    color: #b61f62;
-    font-weight: 200;
-}
-
-.menu > li.current-menu-item a strong {
-  color: #fff !important;
-  border-top: solid 2px #fbd500;
-  border-bottom: solid 2px #fbd500;
-}
-
 #slider-wrapper {
   top: 115px;
 }
@@ -681,7 +665,7 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 }
 
 #footer .product_list_widget li del, #footer .widget del span, .footer_widget h3 span, .catlinkhover, .item h3 a:hover, .item2 h3 a:hover, .item4 h3 a:hover, .catlink:hover, .infotext span, .homeRacent h3 a:hover, .item4 h4 a:hover, .tags a:hover, .blogpost .link:hover, .blogpost .postedin:hover, .blogpost .postedin:hover, .blogpost .link a:hover, .blogpostcategory a.textlink:hover, .footer_widget .widget_links ul li a:hover, .footer_widget .widget_categories ul li a:hover, .footer_widget .widget_archive ul li a:hover, #footerb .footernav ul li a:hover, .footer_widget ul li a:hover, .tags span a:hover, .more-link:hover, .showpostpostcontent h1 a:hover, .menu li a:hover, .menu li a:hover strong, .menu li ul li:hover ul li:hover a, .menu > li.current-menu-item a strong, .menu > li.current-menu-ancestor a strong, .blogpostcategory .meta .written:hover a, .blogpostcategory .meta .comments:hover a, #wp-calendar a, .widgett a:hover, .widget_categories li.current-cat a, .widget_categories li.current-cat, .blogpostcategory .meta .time a:hover, .homeRacent h2 span, .advertise h2 span, .related h3 span, .homeremove .catlink .sortingword:hover, .homeremove .catlinkhover .sortingword, .blogpost .datecomment .link a, .titleborderh span, .textSlide .box, .widget_login p a:hover, .priceSP ins, .boxmore a:hover, .homeRacent .productF h3.category, .textSlide .salePrice1 a, .textSlide .salePrice2 a, .textSlide .salePrice3 a, .textSlide span, .homeRacent .recentmore:hover, .widget_login p a:hover, .priceSP ins, .cartTopDetails .product_list_widget li a:hover, .top-nav li a:hover, #footer .widget .wttitle h4 a, .widget .wttitle h4 a {
-  color:#b61f62 !important;
+  color:#e07ca8 !important;
 }
 
 #footer .widget .wttitle h4 a:hover, .widget .wttitle h4 a:hover, .widget a {
