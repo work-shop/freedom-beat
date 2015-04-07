@@ -99,6 +99,10 @@ header, footer, .sidebar {
   top: 115px;
 }
 
+.iosSlider .slider {
+  padding-top: 280px;
+}
+
 .iosSlider .slider .item, .container {
   background: #fff;
   border: 1px solid #fff;
@@ -565,11 +569,6 @@ a {
 
 #slider-wrapper {
   top: 115px;
-}
-
-.iosSlider .slider .item, .container {
-  background: #fff;
-  border: 1px solid #fff;
 }
 
 .titleborder {
