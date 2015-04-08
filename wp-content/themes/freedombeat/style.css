@@ -403,6 +403,10 @@ h2.title a:hover {
   width:96%;
 }
 
+.blogsingleimage iframe {
+  height: 100%;
+}
+
 .blogpost .datecomment {
   width:100%;
 }
