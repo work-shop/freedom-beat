@@ -418,10 +418,6 @@ h2.title a:hover {
   padding:0;
 }
 
-.blogsingleimage img{
-  width:96%;
-}
-
 .blogsingleimage iframe {
   height: 100%;
 }
