@@ -83,7 +83,7 @@ a {
   color:#b61f62;
 }
 
-#logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
+#logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .one_third .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
   border-color: #b61f62 !important;
 }
 
@@ -99,13 +99,13 @@ a {
   border-bottom: 2px dashed #DADADA;
 }
 
-.homeRacent h3 a, .item4 h3, .item4 h3 a, .boxdescwraper h2, #footer .widget h3, .socialfooter h3, .widget h3, .item3 h3, #portitems2 h3, h3#comments, .relatedtitle h3, .content ol.commentlist li .comment-author .fn a, #commentform h3, .projectdescription h2, .team .title, .recentdescription h3 {
+.homeRacent h3 a, .item4 h3, .item4 h3 a, .boxdescwraper h2, #footer .widget h3, .socialfooter h3, .widget h3, .item3 h3, .one_third h3, #portitems2 h3, h3#comments, .relatedtitle h3, .content ol.commentlist li .comment-author .fn a, #commentform h3, .projectdescription h2, .team .title, .recentdescription h3 {
   font-family: Oswald !important;
 }
 
 .menu > li a, .widget_nav_menu ul li a, .widgett a, input[type='text'], input[type='submit'], input[type='reset'],
 .menu li ul li a, .item4 h4 a, #portitems2 .category a, .homeRacent .category a, 
-.item3 h4 a, .homeRacent .productF h3.category, .homeRacent .productR h3.category
+.item3 h4 a, .one_third h4 a, .homeRacent .productF h3.category, .homeRacent .productR h3.category
  {
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important;
 }
@@ -311,7 +311,7 @@ h2.title a:hover {
 }
 
 @media screen and (max-width: 970px) and (min-width: 478px) {
-  .item3 {
+  .item3, .one_third {
     width: 44% !important;
   }
 }
@@ -325,6 +325,10 @@ h2.title a:hover {
   width: 100%;
 }
 
+.one_third img {
+  height: 230px; /* give this a height, like its .item3 sister */
+}
+
 .homeRacent .recentimage {
   width: auto;
   height: auto;
@@ -336,19 +340,23 @@ h2.title a:hover {
 
 .homeRacent .recentdescriptionPort {
   width: auto;
+  background: transparent;
+  border: 0;
 }
 
-.item3 h3 a, .homeRacent h3 a {
+.item3 h3 a, .one_third h3 a, .homeRacent h3 a {
   color: #B61F62;
   text-transform: uppercase;
 }
 
-.item3 h3 a:hover, div.homeRacent h3 a:hover {
+.item3 h3 a:hover, .one_third h3 a:hover, div.homeRacent h3 a:hover {
   color: #720d3a !important;
 }
 
 .overdefult {
   background: none !important;
+  width: 272px !important;
+  height: 230px !important;
 }
 
 .portIcon {
