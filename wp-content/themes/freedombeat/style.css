@@ -129,34 +129,6 @@ header, footer, .sidebar {
 .home #mainwrap {
   top: 90px;
 }
-.homeBoxAll img {
-  max-width: 100%;
-}
-.textBottom, .homeRacent .productR .recentdescription .onsale  {
-  background-color: rgba(251, 213, 0, 0.78);
-  color: #000;
-}
-
-.page .homeRacent .bx-prev, .homeRacent.SP .bx-prev {
-  background: #b61f62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1px;;
-}
-
-.page .homeRacent .bx-next, .homeRacent.SP .bx-next {
-  background: #b61f62 url(images/slideshowArrowForwardWhite.png) no-repeat 0px 1px;
-}
-.homeRacent .image img, .commenttitle, .homeRacent .recentdescriptionPort, .singledefult .commentblog .circleHolder {
-  border-radius: 0;
-}
-
-.borderLineLeft {
-  border-color: #171717 !important;
-}
-
-.homeRacent.post .one_half {
-  background: #fbd500;
-  border:none;
-  border-radius: 0;
-}
 
 .homeRacent.post h3 {
   background: none;
@@ -181,10 +153,9 @@ background: #B61F62 url(images/slideshowArrowForwardWhite.png) no-repeat 0px 1px
 .advertise .bx-wrapper:hover .bx-prev {
 background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1px;
 }
+
 #footer {
   border-color: #fbd500 !important;
-  font-size: 0.85em;
-  line-height: 1.5em;
 }
 
 #footerbwrap {
@@ -210,6 +181,10 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 
 #footer .widget_tag_cloud a:hover, .widget_tag_cloud a:hover {
   background-color: #6d123a !important;
+}
+
+#footer .product_list_widget li del, #footer .widget del span, .footer_widget h3 span, .catlinkhover, .item h3 a:hover, .item2 h3 a:hover, .item4 h3 a:hover, .catlink:hover, .infotext span, .homeRacent h3 a:hover, .item4 h4 a:hover, .tags a:hover, .blogpost .link:hover, .blogpost .postedin:hover, .blogpost .postedin:hover, .blogpost .link a:hover, .blogpostcategory a.textlink:hover, .footer_widget .widget_links ul li a:hover, .footer_widget .widget_categories ul li a:hover, .footer_widget .widget_archive ul li a:hover, #footerb .footernav ul li a:hover, .footer_widget ul li a:hover, .tags span a:hover, .more-link:hover, .showpostpostcontent h1 a:hover, .menu li a:hover, .menu li a:hover strong, .menu li ul li:hover ul li:hover a, .menu > li.current-menu-item a strong, .menu > li.current-menu-ancestor a strong, .blogpostcategory .meta .written:hover a, .blogpostcategory .meta .comments:hover a, #wp-calendar a, .widgett a:hover, .widget_categories li.current-cat a, .widget_categories li.current-cat, .blogpostcategory .meta .time a:hover, .homeRacent h2 span, .advertise h2 span, .related h3 span, .homeremove .catlink .sortingword:hover, .homeremove .catlinkhover .sortingword, .blogpost .datecomment .link a, .titleborderh span, .textSlide .box, .widget_login p a:hover, .priceSP ins, .boxmore a:hover, .homeRacent .productF h3.category, .textSlide .salePrice1 a, .textSlide .salePrice2 a, .textSlide .salePrice3 a, .textSlide span, .homeRacent .recentmore:hover, .widget_login p a:hover, .priceSP ins, .cartTopDetails .product_list_widget li a:hover, .top-nav li a:hover, #footer .widget .wttitle h4 a, .widget .wttitle h4 a {
+  color:#e07ca8 !important;
 }
 
 #footer .widget .wttitle h4 a:hover, .widget .wttitle h4 a:hover, .widget a {
@@ -434,72 +409,6 @@ h2.title a:hover {
  * End Music
  */
 
-/**
- * Begin Contact and About
- */
-.pagecontentContent {
-  width: 70%;
-}
-
-.homeIcon {
-  width: 30%;
-}
-
-.homeIcon a {
-  background: url(images/homeHouseIcon.png) top right no-repeat;
-}
-
-#mainwrap {
-  top: 50px;
-}
-
-.content, .content.pagesidebar  {
-  background-color: #fff;
-  padding: 25px;
-}
-
-.google-map-placeholder {
-border: none !important;
-}
-
-#contactform  .contact-button[name=clear] {
-  background: #25bceb;
-}
-
-#contactform  .contact-button[name=submit], #commentform #respond #commentform input#submit, #respond #commentform input#submit, .commenttitle {
-  background: #b61f62;
-}
-
-/**
- * End Contact and About
- */
-
-/**
- * Begin Blogpost
- */
-.content {
-  padding: 25px;
-}
-
-.content, #slider-category {
-  background: #fff;
-}
-
-.relatedtitle, #commentform h3 {
-  background: #b61f62;
-  border-radius: 0;
-  margin-left: 5px;
-}
-
-.image-gallery {
-border: none;
-}
-
-.singledefult .posted-date .date-inside {
-  background: #fbd500;
-  border-radius: 0;
-}
-
 
 @media screen and (max-width: 970px) and (min-width: 0px) {
 #mainwrap {
@@ -646,46 +555,6 @@ background: #B61F62 url(images/slideshowArrowForwardWhite.png) no-repeat 0px 1px
 
 .advertise .bx-wrapper:hover .bx-prev {
 background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1px;
-}
-#footer {
-  border-color: #fbd500 !important;
-}
-
-#footerbwrap {
-  background: #fbd500;
-}
-
-#footerb {
-  color: #171717;
-}
-
-.facebooklink.top {
-  background: url(images/top-facebookIcon.png) no-repeat 1px 2px;
-}
-
-#footer .widget h3, .widget h3  {
-  color: #fbd500;
-  text-transform: uppercase;
-}
-
-#footer .widget_tag_cloud a, .widget_tag_cloud a {
-  background-color: #b61f62;
-}
-
-#footer .widget_tag_cloud a:hover, .widget_tag_cloud a:hover {
-  background-color: #6d123a !important;
-}
-
-#footer .product_list_widget li del, #footer .widget del span, .footer_widget h3 span, .catlinkhover, .item h3 a:hover, .item2 h3 a:hover, .item4 h3 a:hover, .catlink:hover, .infotext span, .homeRacent h3 a:hover, .item4 h4 a:hover, .tags a:hover, .blogpost .link:hover, .blogpost .postedin:hover, .blogpost .postedin:hover, .blogpost .link a:hover, .blogpostcategory a.textlink:hover, .footer_widget .widget_links ul li a:hover, .footer_widget .widget_categories ul li a:hover, .footer_widget .widget_archive ul li a:hover, #footerb .footernav ul li a:hover, .footer_widget ul li a:hover, .tags span a:hover, .more-link:hover, .showpostpostcontent h1 a:hover, .menu li a:hover, .menu li a:hover strong, .menu li ul li:hover ul li:hover a, .menu > li.current-menu-item a strong, .menu > li.current-menu-ancestor a strong, .blogpostcategory .meta .written:hover a, .blogpostcategory .meta .comments:hover a, #wp-calendar a, .widgett a:hover, .widget_categories li.current-cat a, .widget_categories li.current-cat, .blogpostcategory .meta .time a:hover, .homeRacent h2 span, .advertise h2 span, .related h3 span, .homeremove .catlink .sortingword:hover, .homeremove .catlinkhover .sortingword, .blogpost .datecomment .link a, .titleborderh span, .textSlide .box, .widget_login p a:hover, .priceSP ins, .boxmore a:hover, .homeRacent .productF h3.category, .textSlide .salePrice1 a, .textSlide .salePrice2 a, .textSlide .salePrice3 a, .textSlide span, .homeRacent .recentmore:hover, .widget_login p a:hover, .priceSP ins, .cartTopDetails .product_list_widget li a:hover, .top-nav li a:hover, #footer .widget .wttitle h4 a, .widget .wttitle h4 a {
-  color:#e07ca8 !important;
-}
-
-#footer .widget .wttitle h4 a:hover, .widget .wttitle h4 a:hover, .widget a {
-  color: #FFF !important;
-}
-
-#footer .widget_categories a, #footer .widget_archive a, #footer .widget_pages a, #footer .widget_links a, #footer .widget_recent_entries a, #footer #footer .widget_meta a, #footer .widget_nav_menu a, #footer .widget_rss a, .widget_categories a {
-  background: url(images/bulletSidebar.png) no-repeat 2px 3px;
 }
 
 .recent_posts .widgett img, .category_posts .widgett img {
