@@ -86,6 +86,31 @@ header, footer, .sidebar {
   color: #fff;
 }
 
+
+#headerwrap, #footer, #slider-wrapper-iframe, #slider-wrapper {
+  background: #1E1E20 url(images/bg16.png) repeat 0 0 !important;
+}
+
+a {
+  color:#b61f62;
+}
+
+#logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
+  border-color: #b61f62 !important;
+}
+
+#logo {
+  margin: 21px 0 2px 0px;
+}
+
+#slider-wrapper {
+  top: 115px;
+}
+
+.titleborder {
+  border-bottom: 2px dashed #DADADA;
+}
+
 .homeRacent h3 a, .item4 h3, .item4 h3 a, .boxdescwraper h2, #footer .widget h3, .socialfooter h3, .widget h3, .item3 h3, #portitems2 h3, h3#comments, .relatedtitle h3, .content ol.commentlist li .comment-author .fn a, #commentform h3, .projectdescription h2, .team .title, .recentdescription h3 {
   font-family: Oswald !important;
 }
@@ -266,37 +291,6 @@ h2.title a:hover {
   margin-bottom: 20px;
 }
 
-.category-news .content {
-  background: transparent ;
-}
-
-.blogpostcategory .commentblog .circleHolder {
-  background: #b61f62 !important;
-  border-radius: 0;
-}
-
-.wp-pagenavi {
-  height: 28px;
-}
-.wp-pagenavi span.current, .wp-pagenavi a:hover {
-  background: #b61f62 !important;
-}
-
-.siderbar {
-  margin: 40px 0px 20px 0px;
-}
-
-.sidebar .borderLineLeft {
-  border-color: #fff !important;
-}
-
-.borderLineRight {
-  margin: 2px 0px 0 2px;
-  float: left;
-  height: 0;
-  border: 1px dashed #FFF;
-}
-
 /**
  * End News
  */
@@ -362,11 +356,10 @@ h2.title a:hover {
 }
 
 .item3 h3 a:hover, div.homeRacent h3 a:hover {
-  color: #720d3a !important; /* SPECIFICITY WARS */
+  color: #720d3a !important;
 }
 
 .overdefult {
-  /*width: 288px !important;*/
   background: none !important;
 }
 
@@ -375,7 +368,6 @@ h2.title a:hover {
 }
 
 .projectdescription .titleborder {
-  /*width:400%;*/
   width:100%;
 }
 
@@ -422,19 +414,6 @@ h2.title a:hover {
 }
 =======
 
-/*
-Theme Name:     freedombeat
-Description:    Child theme for Rock Palace
-Template:       rockPalace
-Version:        0.1.0
-*/
-
-
-/*yellow #fbd500
-pink #b61f62
-black #171717
-white #fff
-blue #25bceb*/
 
 @font-face {
     font-family: 'Mono Social Icons Font';
@@ -446,54 +425,6 @@ blue #25bceb*/
     src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-.symbol, a.symbol:before {
-    font-family: 'Mono Social Icons Font';
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-}
-
-a.symbol:before {
-    content: attr(title);
-    margin-right: 0.3em;
-    font-size: 130%;
-}
-
-::selection {
-  background: #fbd500;
-}
-
-#headerwrap, #footer, #slider-wrapper-iframe, #slider-wrapper {
-  background: #1E1E20 url(images/bg16.png) repeat 0 0 !important;
-}
-
-a {
-  color:#b61f62;
-}
-
-#logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
-  border-color: #b61f62 !important;
-}
-
-#logo {
-  margin: 21px 0 2px 0px;
-}
-
-#slider-wrapper {
-  top: 115px;
-}
-
-.titleborder {
-  border-bottom: 2px dashed #DADADA;
 }
 
 .home #mainwrap {
