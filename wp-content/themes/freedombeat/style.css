@@ -61,18 +61,6 @@ body, #headerwrap, #footer, #slider-wrapper-iframe, #slider-wrapper {
   background: #2f3032 !important;
 }
 
-a {
-  color:#b61f62;
-}
-
-#logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
-  border-color: #b61f62 !important;
-}
-
-#logo {
-  margin: 21px 0 2px 0px;
-}
-
 #logo .tagline {
   color: #b4b7bb;
   display: block;
