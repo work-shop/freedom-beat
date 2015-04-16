@@ -7,6 +7,8 @@ Template Name: 3 Column Portfolio
 <?php get_header(); 
 
 ?>
+<!-- 3 Column Portfolio - Nic-->
+
 <div class = "outerpagewrap">
 	<div class="pagewrap">
 		<div class="pagecontent">
@@ -27,6 +29,7 @@ Template Name: 3 Column Portfolio
 		
 		<?php  
 		$portfolio = get_post_custom($post->ID); 
+
 		if(isset($portfolio['port_category'][0]))
 			$port= $portfolio['port_category'][0];
 		else
@@ -50,8 +53,10 @@ Template Name: 3 Column Portfolio
 			<div id="portitems3">
 						
 				<?php 
-					
-					portfolio('port3',3,'port','',getcatslug($port)); 
+					/*  Changed the number of posts to get all of the available posts
+                     this may be a bit much in terms of load times... 
+                 */
+					portfolio('port3',3,'port',-1,getcatslug($port)); 
 				?>
 					
 			</div>

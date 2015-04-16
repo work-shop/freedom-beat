@@ -434,7 +434,6 @@ function portfolio($portSize, $item, $post = 'port' ,$number = 0,$cat = ''){
 	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 	$categport = '';
 
-
 	if($post == 'post'){
 		$postT = 'post';
 		$showposts = $data['sortingpost_number'];
