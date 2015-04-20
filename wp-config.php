@@ -34,6 +34,26 @@ if ( $local = file_exists( join( DIRECTORY_SEPARATOR, array( dirname(__FILE__), 
 	/** The Database Collate type. Don't change this if in doubt. */
 	define('DB_COLLATE', '');
 
+} else if ( $dev = file_exists( join( DIRECTORY_SEPARATOR, array( dirname(__FILE__), 'env_dev' ) ) ) ) { 
+
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'gregneme_freedombeat');
+
+	/** MySQL database username */
+	define('DB_USER', 'gregneme_ws');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'eBy!ctQa;gm{');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+
 } else {
 		/** The name of the database for WordPress */
 	define('DB_NAME', 'freedpw2_freedombeat');
