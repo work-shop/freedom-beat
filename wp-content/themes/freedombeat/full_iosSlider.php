@@ -80,12 +80,16 @@ Template Name: Home with iosSlider
 												<img src="<?php echo $slide['url']; ?>" alt="<?php echo stripText($slide['title']); ?>" />
 											<?php endif; ?>
 
-
 										<div class = 'showtext textBottom'>
 											<div class = 'bgBottom'></div>
 
 											<div class = 'titleBottom'>
+												<?php if ($slide['url'] != '') : ?> <a href="<?php echo $slide['link']; ?>"> <?php endif; ?>
+
 												<?php echo stripText($slide['title']); ?>
+
+												<?php if ($slide['url'] != '') : ?> </a> <?php endif; ?>
+
 											</div>
 
 
@@ -132,7 +136,7 @@ Template Name: Home with iosSlider
 	<?php if(isset($data['box_status'])) { ?>
 <div class="homeBoxAll">
 	
-	<img src="wp-content/themes/freedombeat/images/eq.jpg" alt="">
+	<img src="wp-content/themes/freedombeat/images/eq-black.png" alt="">
 </div>   <!-- /.homeBoxAll -->
 
 	<?php
