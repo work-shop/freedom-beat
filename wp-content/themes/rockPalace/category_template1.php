@@ -23,6 +23,8 @@ jQuery(document).ready(function($){
 	});
 	
 </script>	
+
+<!-- this is an injection -->
 <div class = "outerpagewrap">
 	<div class="pagewrap">
 		<div class="pagecontent">

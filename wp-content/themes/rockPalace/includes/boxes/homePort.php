@@ -39,7 +39,14 @@
 <?php 	if ($pc->have_posts()) : ?>
 <div class="homeRacent portHome">
 	<div class="titleborder"></div>
-	<h2><?php if (!function_exists('icl_object_id') or (ICL_LANGUAGE_CODE == $sitepress->get_default_language()) ) { echo stripText($data['translation_port']); } else {  _e('Recent from Our portfolio','wp-rockPalace'); } ?></h2>
+
+	<h2>
+
+	<a href="<?php echo home_url('/portfolio-3'); ?>">
+	<?php if (!function_exists('icl_object_id') or (ICL_LANGUAGE_CODE == $sitepress->get_default_language()) ) { echo stripText($data['translation_port']); } else {  _e('Recent from Our portfolio','wp-rockPalace'); } ?>
+	</a>
+
+	</h2>
 	<div class="homeRecent">
 	<ul id="sliderAdvertisePort" class="sliderAdvertisePort">
 		<?php
