@@ -45,7 +45,7 @@ h6 {
 	font-size: 16px !important;
 	}	
 h2.title a {color:#2a2b2c;}
-a, a:active, a:visited, .footer_widget .widget_links ul li a{color: #2a2b2c;}	
+a, a:active, a:visited, .footer_widget .widget_links ul li a{color: #83002F;}	/* changed the visited link color to the standard link color, then darkened it 20% */
 .widget_nav_menu ul li a  {color: #2a2b2c;}
 a:hover, h2.title a:hover, .item3 h3:hover, .item4 h3:hover, .item3 h3 a:hover, #portitems2 h3 a:hover {color: #cc3333;}
 .product-remove a:hover {color: #cc3333 !important;}
