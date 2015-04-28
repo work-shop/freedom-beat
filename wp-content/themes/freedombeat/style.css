@@ -163,10 +163,6 @@ a {
   border-bottom: 2px dashed #DADADA;
 }
 
-.home #mainwrap {
-  top: 90px;
-}
-
 .homeRacent.post h3 {
   background: none;
   width: 32px;
@@ -461,7 +457,6 @@ h2.title a:hover {
 #mainwrap {
   width: 100% !important;
   padding-left: 0;
-  top:110px
   }
   .content {
     padding: 0;
@@ -482,9 +477,6 @@ h2.title a:hover {
     font-style: normal;
 }
 
-.home #mainwrap {
-  top: 90px;
-}
 .homeBoxAll img {
   max-width: 100%;
 }
@@ -657,10 +649,6 @@ float: none !important;
   background: url(images/homeHouseIcon.png) top right no-repeat;
 }
 
-#mainwrap {
-  top: 50px;
-}
-
 .content {
   box-sizing: border-box;
 }
@@ -712,15 +700,4 @@ border: none;
   border-radius: 0;
 }
 
-
-@media screen and (max-width: 970px) and (min-width: 0px) {
-#mainwrap {
-  width: 100% !important;
-  padding-left: 0;
-  top:110px
-  }
-  .content {
-    padding: 0;
-  }
-}
 
