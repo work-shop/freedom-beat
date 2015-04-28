@@ -55,9 +55,6 @@ a.symbol:before {
 body {
   font-size: 15px;
   font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
-
-body, #headerwrap, #footer, #slider-wrapper-iframe, #slider-wrapper {
   background: #2f3032 !important;
 }
 
@@ -96,10 +93,6 @@ a {
 
 #logo {
   margin: 21px 0 2px 0px;
-}
-
-#slider-wrapper {
-  top: 115px;
 }
 
 .titleborder {
@@ -285,58 +278,6 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
 
 
 /**
- * Begin News
- */
-
-.pagewrap {
-  background:#fbd500
-}
-
-.outerpagewrap {
-  height: 120px;
-  background: none;
-  border-bottom: none;
-  border-top: none;
-  position: relative;
-/*  top: 120px;*/
-}
-
-.pagecontent h1, .pagecontent p a, .pagecontent p {
-  color: #000 !important;
-}
-
-.pagecontent p {
-  display: none;
-}
-
-.blogpostcategory iframe {
-  background: #fff !important;
-}
-h2.title a, .authorblog a, .categoryblog a {
-  color:#b61f62;
-}
-
-h2.title a:hover {
-  color: #fff;
-}
-
-.blogpostcategory .blogimage, .blogpostcategory .posted-date .date-inside, .blogpostcategory .date-inside .day, .blogpostcategory .date-inside .month {
-  background: #fff !important;
-  color: #000 !important;
-}
-
-.content .entry {
-  width: auto;
-  padding-left: 10px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-/**
- * End News
- */
-
-/**
  * Begin Music
  */
 
@@ -470,20 +411,7 @@ h2.title a:hover {
   padding-left: 0;
   }
 }
-=======
 
-
-@font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .homeBoxAll img {
   max-width: 100%;
@@ -566,9 +494,41 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
  * End Homepage
  */
 
-/**
- * Begin News
- */
+ /**
+  * Begin News
+  */
+
+
+ .pagecontent h1, .pagecontent p a, .pagecontent p {
+   color: #000 !important;
+ }
+
+ .pagecontent p {
+   display: none;
+ }
+
+ .blogpostcategory iframe {
+   background: #fff !important;
+ }
+ h2.title a, .authorblog a, .categoryblog a {
+   color:#b61f62;
+ }
+
+ h2.title a:hover {
+   color: #fff;
+ }
+
+ .blogpostcategory .blogimage, .blogpostcategory .posted-date .date-inside, .blogpostcategory .date-inside .day, .blogpostcategory .date-inside .month {
+   background: #fff !important;
+   color: #000 !important;
+ }
+
+ .content .entry {
+   width: auto;
+   padding-left: 10px;
+   margin-top: 0;
+   margin-bottom: 20px;
+ }
 
 .pagewrap {
   background:#fbd500;
@@ -626,14 +586,12 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
  * Begin Music
  */
 
-.projectdescription
-{
-padding-left: 0 !important;
-width:100%;
+.projectdescription {
+  padding-left: 0 !important;
+  width:100%;
 }
-.blogpost .datecomment, .datecomment
-{
-float: none !important;
+.blogpost .datecomment, .datecomment {
+  float: none !important;
 }
 
 .portsingle .portfolio .titleborder{margin-top: -22px;width:50%; }
