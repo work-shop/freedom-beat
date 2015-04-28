@@ -436,14 +436,15 @@ h2.title a:hover {
   width:50%;
 }
 
-#content .projectdetails {
+.projectdetails {
   width:100%;
 }
 
 .projectdetails .blogsingleimage {
-  width:600px;
   background:none;
   padding:0;
+  width: auto;
+  text-align: center;
 }
 
 .blogsingleimage iframe {
@@ -657,7 +658,10 @@ float: none !important;
 }
 
 .content, .content.pagesidebar  {
-  background-color: #fff;
+  width: 100%;
+  max-width: 640px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .google-map-placeholder {
