@@ -167,6 +167,11 @@ background: #B61F62 url(images/slideshowArrowForwardWhite.png) no-repeat 0px 1px
 background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1px;
 }
 
+
+/**
+ * Footer
+ */
+
 #footer {
   border-color: #fbd500 !important;
 }
@@ -208,6 +213,26 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
   background: url(images/bulletSidebar.png) no-repeat 2px 3px;
 }
 
+@media screen and (min-width:0px) and (max-width:970px){
+  #footer {
+    padding: 1em 1em 4em 1em;
+  }
+  #footer li {
+    clear: both;
+  }
+  #footer .menu-portfolio-categories-container, #footer .social {
+    display: inline-flex;
+    margin: 0 auto;
+  }
+  .footer_widget .last {
+    margin-bottom: 4em;
+  }
+}
+
+/**
+ * End Footer
+ */
+
 .recent_posts .widgett img, .category_posts .widgett img {
   background: #fff !important;
 }
@@ -227,9 +252,7 @@ background: #B61F62 url(images/slideshowArrowBackwardWhite.png) no-repeat 0px 1p
   color: #b61f62 !important;
 }
 
-/**
- * End Homepage
- */
+
 
 /**
  * Begin News
