@@ -122,6 +122,30 @@ a {
   border-color: #fbd500;
 }
 
+@media screen and (max-width: 970px) and (min-width: 721px)  {
+  .respMenu {
+    display: none;
+  }
+  .pagenav {
+    display: block !important;
+    width: auto !important;
+    margin-top: 33px;
+  }
+  #logo {
+    width: auto;
+  }
+  #headerwrap {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .respMenu {
+    display: block;
+  }
+}
+
 #slider-wrapper {
   top: 115px;
 }
