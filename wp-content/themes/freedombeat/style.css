@@ -83,6 +83,13 @@ a {
   color:#b61f62;
 }
 
+#header {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 960px;
+  box-sizing: border-box;
+}
+
 #logo a, .recentborder, .item4 .recentborder, .item3 .recentborder, .one_third .recentborder, .afterlinehome, .TopHolder, .borderLineLeftSlideshow, .cartHolder{
   border-color: #b61f62 !important;
 }
