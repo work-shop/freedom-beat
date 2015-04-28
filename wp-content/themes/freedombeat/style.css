@@ -333,6 +333,12 @@ h2.title a:hover {
   background: rgba(255,255,255,0.95);
 }
 
+@media screen and (max-width: 478px) {
+  .item3, .one_third {
+    padding: 24px 0;
+  }
+}
+
 @media screen and (max-width: 970px) and (min-width: 478px) {
   .item3, .one_third {
     width: 44% !important;
