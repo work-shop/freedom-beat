@@ -138,6 +138,9 @@ a {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+  .current-menu-item {
+    padding-top: 0 !important;
+  }
 }
 
 @media screen and (max-width: 720px) {
