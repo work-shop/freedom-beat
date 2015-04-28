@@ -637,6 +637,10 @@ float: none !important;
   top: 50px;
 }
 
+.content {
+  box-sizing: border-box;
+}
+
 .content, .content.pagesidebar  {
   background-color: #fff;
   padding: 25px;
