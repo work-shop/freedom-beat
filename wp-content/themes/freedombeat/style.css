@@ -468,9 +468,6 @@ h2.title a:hover {
   width: 100% !important;
   padding-left: 0;
   }
-  .content {
-    padding: 0;
-  }
 }
 =======
 
@@ -659,13 +656,8 @@ float: none !important;
   background: url(images/homeHouseIcon.png) top right no-repeat;
 }
 
-.content {
-  box-sizing: border-box;
-}
-
 .content, .content.pagesidebar  {
   background-color: #fff;
-  padding: 25px;
 }
 
 .google-map-placeholder {
@@ -687,8 +679,8 @@ border: none !important;
 /**
  * Begin Blogpost
  */
-.content {
-  padding: 25px;
+.content.blog {
+  padding: 0 20px;
 }
 
 .content, #slider-category {
