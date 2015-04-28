@@ -316,6 +316,12 @@ h2.title a:hover {
   }
 }
 
+@media screen and (min-width:478px) and (max-width:970px){
+  .homeRecent .one_third {
+    width: 42% !important;
+  }
+}
+
 .item3, .item3 img, .one_third, .one_third img {
   border-radius: 0;
   border: none;
