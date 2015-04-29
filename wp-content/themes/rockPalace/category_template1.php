@@ -23,13 +23,18 @@ jQuery(document).ready(function($){
 	});
 	
 </script>	
-
+`
 <!-- this is an injection -->
 <div class = "outerpagewrap">
 	<div class="pagewrap">
 		<div class="pagecontent">
 			<div class="pagecontentContent">
-				<h1><?php echo  translation('translation_blog_page', 'Welcome to <span>our blog</span>, we will keep you informed'); ?></h1>
+				<h1><?php 
+				
+					$term = get_term_by( 'slug', get_query_var('portfoliocategory'), 'portfoliocategory' ); 
+					echo ( $term ) ? $term->name : "EXPLORE";
+
+				?></h1>
 				<p><?php the_breadcrumb(); ?></p>
 			</div>
 			<div class="homeIcon"><a href="<?php echo home_url(); ?>"></a></div>
