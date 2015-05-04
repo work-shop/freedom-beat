@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
 				<h1><?php 
 				
 					$term = get_term_by( 'slug', get_query_var('portfoliocategory'), 'portfoliocategory' ); 
-					echo ( $term ) ? $term->name : "EXPLORE";
+					echo ( $term ) ? $term->name : translation('translation_blog_page', 'Welcome to <span>our blog</span>, we will keep you informed');
 
 				?></h1>
 				<p><?php the_breadcrumb(); ?></p>
